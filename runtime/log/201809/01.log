@@ -1,0 +1,8 @@
+---------------------------------------------------------------
+[ 2018-09-01T17:21:44+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] hisiphp.io/favicon.ico [运行时间：0.132298s][吞吐率：7.56req/s] [内存消耗：1,947.16kb] [文件加载：52]
+[ error ] [0]模板文件不存在:/Users/huangpeng/program/hisiphp/app/install/view/favicon/ico/index.php[/Users/huangpeng/program/hisiphp/thinkphp/library/think/view/driver/Think.php:82]
+---------------------------------------------------------------
+[ 2018-09-01T17:21:44+08:00 ] 0.0.0.0 GET /favicon.ico
+[ info ] hisiphp.io/favicon.ico [运行时间：0.139592s][吞吐率：7.16req/s] [内存消耗：1,946.98kb] [文件加载：52]
+[ error ] [0]模板文件不存在:/Users/huangpeng/program/hisiphp/app/install/view/favicon/ico/index.php[/Users/huangpeng/program/hisiphp/thinkphp/library/think/view/driver/Think.php:82]
