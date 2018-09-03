@@ -682,7 +682,7 @@ EOF;
     public function testMultipleDocumentsNotSupportedException()
     {
         Yaml::parse(<<<'EOL'
-# Ranking of 1998 home runs
+# Ranking of 1998 controller runs
 ---
 - Mark McGwire
 - Sammy Sosa

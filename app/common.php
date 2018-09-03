@@ -709,7 +709,7 @@ if (!function_exists('plugins_action_exist')) {
     /**
      * 检查插件操作是否存在
      * @param string $path 插件操作路径：插件名/控制器/[操作]
-     * @param string $group 控制器分组[admin,home]
+     * @param string $group 控制器分组[admin,controller]
      * @return bool
      */
     function plugins_action_exist($path = '', $group = 'admin')
@@ -729,7 +729,7 @@ if (!function_exists('plugins_run')) {
      * 运行插件操作
      * @param string $path  执行操作路径：插件名/控制器/[操作]
      * @param mixed $params 参数
-     * @param string $group 控制器分组[admin,home]
+     * @param string $group 控制器分组[admin,controller]
      * @return mixed
      */
     function plugins_run($path = '', $params = [], $group = 'admin')
@@ -773,7 +773,7 @@ if (!function_exists('plugins_url')) {
      * 生成插件URL
      * @param string $url 链接：插件名称/控制器/操作
      * @param array $param 参数
-     * @param string $group 控制器分组[admin,home]
+     * @param string $group 控制器分组[admin,controller]
      * @param integer $urlmode URL模式
      * URL模式1 [/plugins/插件名/控制器/[方法]?参数1=参数值&参数2=参数值]
      * URL模式2 [/plugins.php?_p=插件名&_c=控制器&_a=方法&参数1=参数值&参数2=参数值] 推荐

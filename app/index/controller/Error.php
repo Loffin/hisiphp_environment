@@ -43,10 +43,10 @@ class Error extends Home
             if (!PluginsModel::where(['name' => $plugin, 'status' => 2])->find() ) {
                 return $this->error("插件可能不存在或者未安装！");
             }
-            if (!plugins_action_exist($plugin.'/'.$controller.'/'.$action, 'home')) {
+            if (!plugins_action_exist($plugin.'/'.$controller.'/'.$action, 'controller')) {
                 return $this->error("插件方法不存在[".$plugin.'/'.$controller.'/'.$action."]！");
             }
-            return plugins_run($plugin.'/'.$controller.'/'.$action, $params, 'home');
+            return plugins_run($plugin.'/'.$controller.'/'.$action, $params, 'controller');
         }
         return $this->error('这是系统默认模块，您可以在后台指定其他模块为默认访问首页！', '', '', 100);
     }

@@ -48,7 +48,7 @@ class Init
             $def_mod = ModuleModel::where($map)->value('name');
             if ($def_mod && !defined('ENTRANCE')) {
                 define('BIND_MODULE', $def_mod);
-                config('url_controller_layer', 'home');
+                config('url_controller_layer', 'controller');
             }
         }
         // 后台强制关闭路由

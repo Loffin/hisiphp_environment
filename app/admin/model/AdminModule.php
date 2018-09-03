@@ -229,9 +229,9 @@ class AdminModule extends Model
         }
 
         // 生成前台默认控制器
-        if (is_dir($path.'home')) {
-            $home_contro = "<?php\nnamespace app\\".$data["name"]."\\home;\nuse app\common\controller\Common;\n\nclass Index extends Common\n{\n    public function index()\n    {\n        return ".'$this->fetch()'.";\n    }\n}";
-            file_put_contents($path . 'home'.DS.'Index.php', $home_contro);
+        if (is_dir($path.'controller')) {
+            $home_contro = "<?php\nnamespace app\\".$data["name"]."\\controller;\nuse app\common\controller\Common;\n\nclass Index extends Common\n{\n    public function index()\n    {\n        return ".'$this->fetch()'.";\n    }\n}";
+            file_put_contents($path . 'controller'.DS.'Index.php', $home_contro);
             file_put_contents(ROOT_PATH.'theme'.DS.$data['name'].DS.'default'.DS.'index'.DS.'index.php', '<?php defined("IN_SYSTEM") or die("Access Denied");/* 防止模板被盗 */?>');
         }
     }

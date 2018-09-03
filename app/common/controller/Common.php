@@ -65,7 +65,7 @@ class Common extends Controller
         if(defined('ENTRANCE') && ENTRANCE == 'admin') {
             $template = 'admin/'.$template;
         } else {
-            $template = 'home/'.$template;
+            $template = 'controller/'.$template;
         }
 
         $template_path = strtolower("plugins/{$plugin}/view/{$template}.".config('template.view_suffix'));

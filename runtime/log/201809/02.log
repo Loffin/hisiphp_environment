@@ -1,0 +1,12 @@
+---------------------------------------------------------------
+[ 2018-09-02T15:16:52+08:00 ] 0.0.0.0 POST /admin.php/admin/module/design.html
+[ info ] hisiphp.io/admin.php/admin/module/design.html [运行时间：0.322881s][吞吐率：3.10req/s] [内存消耗：3,573.27kb] [文件加载：78]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'api.loffin.module' for key 'identifier'[/Users/huangpeng/program/hisiphp_environment/thinkphp/library/think/db/Connection.php:463]
+---------------------------------------------------------------
+[ 2018-09-02T15:18:13+08:00 ] 0.0.0.0 GET /admin.php/admin/module/index/status/0.html
+[ info ] hisiphp.io/admin.php/admin/module/index/status/0.html [运行时间：0.211620s][吞吐率：4.73req/s] [内存消耗：3,838.70kb] [文件加载：84]
+[ error ] [2]copy(/Users/huangpeng/program/hisiphp_environment/app/wechatapi/wechatapi.png): failed to open stream: No such file or directory[/Users/huangpeng/program/hisiphp_environment/app/admin/controller/Module.php:99]
+---------------------------------------------------------------
+[ 2018-09-02T15:18:27+08:00 ] 0.0.0.0 GET /admin.php/admin/module/index/status/0.html
+[ info ] hisiphp.io/admin.php/admin/module/index/status/0.html [运行时间：0.172213s][吞吐率：5.81req/s] [内存消耗：3,838.70kb] [文件加载：84]
+[ error ] [2]copy(/Users/huangpeng/program/hisiphp_environment/app/wechatapi/wechatapi.png): failed to open stream: No such file or directory[/Users/huangpeng/program/hisiphp_environment/app/admin/controller/Module.php:99]

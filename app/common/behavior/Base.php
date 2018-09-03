@@ -135,7 +135,7 @@ class Base
                 $module = config('default_module');
             }
             if ($module != 'index') {
-                config('url_controller_layer', 'home');
+                config('url_controller_layer', 'controller');
                 // 定义前台模板路径[分手机和PC]
                 if (request()->isMobile() === true && config('base.wap_site_status') && file_exists('.'.ROOT_DIR.'theme'.DS.$module.DS.$theme.DS.'wap'.DS)) {
                     // 如果有移动端域名，强制跳转
