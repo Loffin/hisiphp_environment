@@ -239,4 +239,8 @@ return [
         'var_page'  => 'page',
         'list_rows' => 15,
     ],
+
+    //微信接口配置信息
+    'appid'     =>  'wx558e8b20b60ddcc6',
+    'appsecret' =>  'neufneufeufneu',
 ];
