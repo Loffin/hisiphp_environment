@@ -1,6 +1,7 @@
 <?php
 namespace app\api\controller;
 use app\api\model\Cate;
+use app\api\model\Weight;
 use app\common\controller\Common;
 use app\api\model\User;
 
@@ -10,6 +11,7 @@ class Index extends Common
     {
         $data = [];
         $cate = Cate::where('status',1)->column('cate_name');
-        dump($cate);
+        $weight = Weight::where('status',1)->column('weight');
+        dump($weight);
     }
 }
