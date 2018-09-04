@@ -8,7 +8,6 @@
  */
 namespace app\api\model;
 
-use think\Config;
 use think\Model;
 class UserInfo extends Model
 {

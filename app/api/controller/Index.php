@@ -1,9 +1,9 @@
 <?php
 namespace app\api\controller;
+
 use app\api\model\Cate;
 use app\api\model\Weight;
 use app\common\controller\Common;
-use app\api\model\User;
 use think\Config;
 class Index extends Common
 {
@@ -22,7 +22,7 @@ class Index extends Common
     public function jumpToCode()
     {
         $appid  =   Config::get('appid');
-        $redirect_uri   =   urlencode('http://hisiphp.io/index.php/api/GetUserInfo/index');
+        $redirect_uri   =   urlencode('http://hisiphp.io/index.php/api/getUserInfo/index');
         $url    =   "https://open.weixin.qq.com/connect/oauth2/authorize?appid=$appid&redirect_uri=$redirect_uri&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect";
         header("location:$url");
         exit;
