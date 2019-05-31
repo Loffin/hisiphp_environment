@@ -1,20 +1,38 @@
 <?php
-/**
- * Declaration:
- * @param: $value
- * @return: mixed
- * @Author: Loffin
- * Date&Time: 2018/9/3-下午7:10
- */
 namespace app\api\controller;
 
-use think\Config;
 use think\Controller;
+use think\Config;
 class Login extends Controller
 {
-    //小程序调用server获取token接口, 传入code, rawData, signature, encryptData.
-    public function wxLogin()
+    protected $code;
+    protected $appid;
+    protected $appsecret;
+    public $openid;
+    public $session_key;
+
+    public function login()
     {
-        dump(Config::get('appid'));
+        $this->code =   input('code');
+        $this->appid    =  Config::get('appid');
+        $this->appsecret    =   Config::get('appsecret');
+        $url    =   "https://api.weixin.qq.com/sns/jscode2session?appid=" . $this->appid . "&secret=" . $this->appsecret . "&js_code=" . $this->code . "&grant_type=authorization_code";
+        $res    =   $this->httpGet($url);
+        $this->openid   =   $res['openid'];
+        $this->session_key  =   $res['session_key'];
+    }
+
+    public function httpGet($url)
+    {
+        $ch =   curl_init();
+        curl_setopt($ch,CURLOPT_URL,$url);
+        curl_setopt($ch,CURLOPT_TIMEOUT,15*60);
+        curl_setopt($ch,CURLOPT_POST,false);
+        curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
+        curl_setopt($ch,CURLOPT_SSL_VERIFYPEER,true);
+        curl_setopt($ch,CURLOPT_SSL_VERIFYHOST,false);
+        $result =   curl_exec($ch);
+        curl_close($ch);
+        return $result;
     }
 }

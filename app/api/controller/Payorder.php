@@ -9,9 +9,17 @@
 namespace app\api\controller;
 
 use think\Controller;
+use think\Request;
+use think\Session;
 class Payorder extends Controller
 {
-    public function index()
+    protected $user;
+    protected $cate;
+    protected $address;
+    protected $phone_num;
+    protected $weight;
+
+    public function __construct(Request $request = null)
     {
 
     }

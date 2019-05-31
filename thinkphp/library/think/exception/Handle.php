@@ -148,7 +148,7 @@ class Handle
                     'Files'                 => $_FILES,
                     'Cookies'               => $_COOKIE,
                     'Session'               => isset($_SESSION) ? $_SESSION : [],
-                    'Server/Request Data'   => $_SERVER,
+                    'UserToken/Request Data'   => $_SERVER,
                     'Environment Variables' => $_ENV,
                     'ThinkPHP Constants'    => $this->getConst(),
                 ],

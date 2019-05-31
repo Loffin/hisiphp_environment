@@ -241,6 +241,6 @@ return [
     ],
 
     //微信接口配置信息
-    'appid'     =>  'wx558e8b20b60ddcc6',
-    'appsecret' =>  'neufneufeufneu',
+    'appid'     =>  'wxa47ab99195026855',
+    'appsecret' =>  'cc7bcfc580996abf040f06b4528e7f84',
 ];

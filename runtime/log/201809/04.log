@@ -1,0 +1,72 @@
+---------------------------------------------------------------
+[ 2018-09-04T16:13:25+08:00 ] 0.0.0.0 GET /index.php/api/getUserInfo?code=fnruibfriufwb
+[ info ] hisiphp.io/index.php/api/getUserInfo?code=fnruibfriufwb [运行时间：0.485980s][吞吐率：2.06req/s] [内存消耗：2,925.03kb] [文件加载：64]
+[ error ] [8]curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead[/Users/huangpeng/program/hisiphp_environment/app/api/model/UserInfo.php:34]
+---------------------------------------------------------------
+[ 2018-09-04T16:15:50+08:00 ] 0.0.0.0 GET /index.php/api/getUserInfo?code=fnruibfriufwb
+[ info ] hisiphp.io/index.php/api/getUserInfo?code=fnruibfriufwb [运行时间：0.874435s][吞吐率：1.14req/s] [内存消耗：2,926.86kb] [文件加载：64]
+[ error ] [8]Undefined property: stdClass::$access_token[/Users/huangpeng/program/hisiphp_environment/app/api/controller/Getuserinfo.php:28]
+---------------------------------------------------------------
+[ 2018-09-04T20:39:05+08:00 ] 0.0.0.0 GET /index.php/api/UserToken
+[ info ] hisiphp.io/index.php/api/UserToken [运行时间：0.391335s][吞吐率：2.56req/s] [内存消耗：2,898.30kb] [文件加载：61]
+[ error ] [0]方法参数错误:code[/Users/huangpeng/program/hisiphp_environment/thinkphp/library/think/App.php:431]
+---------------------------------------------------------------
+[ 2018-09-04T20:39:48+08:00 ] 0.0.0.0 GET /index.php/api/UserToken
+[ info ] hisiphp.io/index.php/api/UserToken [运行时间：0.307797s][吞吐率：3.25req/s] [内存消耗：2,905.50kb] [文件加载：63]
+[ error ] [8]Use of undefined constant cdnjfnjk - assumed 'cdnjfnjk'[/Users/huangpeng/program/hisiphp_environment/thinkphp/library/think/App.php:429]
+---------------------------------------------------------------
+[ 2018-09-04T21:17:37+08:00 ] 0.0.0.0 GET /index.php/api/UserToken
+[ info ] hisiphp.io/index.php/api/UserToken [运行时间：0.304780s][吞吐率：3.28req/s] [内存消耗：2,912.80kb] [文件加载：63]
+[ error ] [2]curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument[/Users/huangpeng/program/hisiphp_environment/app/api/controller/Usertoken.php:39]
+---------------------------------------------------------------
+[ 2018-09-04T21:19:23+08:00 ] 0.0.0.0 GET /index.php/api/UserToken
+[ info ] hisiphp.io/index.php/api/UserToken [运行时间：0.190616s][吞吐率：5.25req/s] [内存消耗：2,912.80kb] [文件加载：63]
+[ error ] [2]curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument[/Users/huangpeng/program/hisiphp_environment/app/api/controller/Usertoken.php:39]
+---------------------------------------------------------------
+[ 2018-09-04T21:20:10+08:00 ] 0.0.0.0 GET /index.php/api/UserToken
+[ info ] hisiphp.io/index.php/api/UserToken [运行时间：0.313223s][吞吐率：3.19req/s] [内存消耗：2,912.09kb] [文件加载：63]
+[ error ] [8]curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead[/Users/huangpeng/program/hisiphp_environment/app/api/controller/Usertoken.php:42]
+---------------------------------------------------------------
+[ 2018-09-04T21:20:46+08:00 ] 0.0.0.0 GET /index.php/api/UserToken
+[ info ] hisiphp.io/index.php/api/UserToken [运行时间：0.167689s][吞吐率：5.96req/s] [内存消耗：2,912.09kb] [文件加载：63]
+[ error ] [8]curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead[/Users/huangpeng/program/hisiphp_environment/app/api/controller/Usertoken.php:42]
+---------------------------------------------------------------
+[ 2018-09-04T21:21:41+08:00 ] 0.0.0.0 GET /index.php/api/UserToken
+[ info ] hisiphp.io/index.php/api/UserToken [运行时间：0.545211s][吞吐率：1.83req/s] [内存消耗：2,911.96kb] [文件加载：63]
+[ error ] [2]curl_close() expects exactly 1 parameter, 0 given[/Users/huangpeng/program/hisiphp_environment/app/api/controller/Usertoken.php:44]
+---------------------------------------------------------------
+[ 2018-09-04T21:27:05+08:00 ] 0.0.0.0 GET /index.php/api/UserToken/get
+[ info ] hisiphp.io/index.php/api/UserToken/get [运行时间：0.181268s][吞吐率：5.52req/s] [内存消耗：2,908.59kb] [文件加载：62]
+[ error ] [0]致命错误: Call to undefined function app\api\controller\Crul_get()[/Users/huangpeng/program/hisiphp_environment/app/api/controller/Usertoken.php:30]
+---------------------------------------------------------------
+[ 2018-09-04T21:27:58+08:00 ] 0.0.0.0 GET /index.php/api/UserToken/get
+[ info ] hisiphp.io/index.php/api/UserToken/get [运行时间：0.177828s][吞吐率：5.62req/s] [内存消耗：2,910.50kb] [文件加载：62]
+[ error ] [0]致命错误: Call to undefined method app\api\controller\UserToken::Crul_get()[/Users/huangpeng/program/hisiphp_environment/app/api/controller/Usertoken.php:30]
+---------------------------------------------------------------
+[ 2018-09-04T21:29:14+08:00 ] 0.0.0.0 GET /index.php/api/UserToken/get
+[ info ] hisiphp.io/index.php/api/UserToken/get [运行时间：0.201139s][吞吐率：4.97req/s] [内存消耗：2,910.43kb] [文件加载：62]
+[ error ] [0]致命错误: Call to undefined method app\api\controller\UserToken::Crul_get()[/Users/huangpeng/program/hisiphp_environment/app/api/controller/Usertoken.php:30]
+---------------------------------------------------------------
+[ 2018-09-04T21:29:30+08:00 ] 0.0.0.0 GET /index.php/api/UserToken/get
+[ info ] hisiphp.io/index.php/api/UserToken/get [运行时间：0.181174s][吞吐率：5.52req/s] [内存消耗：2,905.15kb] [文件加载：61]
+[ error ] [0]方法参数错误:url[/Users/huangpeng/program/hisiphp_environment/thinkphp/library/think/App.php:431]
+---------------------------------------------------------------
+[ 2018-09-04T21:29:59+08:00 ] 0.0.0.0 GET /index.php/api/UserToken/get
+[ info ] hisiphp.io/index.php/api/UserToken/get [运行时间：0.117994s][吞吐率：8.48req/s] [内存消耗：2,905.23kb] [文件加载：61]
+[ error ] [0]方法参数错误:url[/Users/huangpeng/program/hisiphp_environment/thinkphp/library/think/App.php:431]
+---------------------------------------------------------------
+[ 2018-09-04T21:30:00+08:00 ] 0.0.0.0 GET /index.php/api/UserToken/get
+[ info ] hisiphp.io/index.php/api/UserToken/get [运行时间：0.097650s][吞吐率：10.24req/s] [内存消耗：2,905.23kb] [文件加载：61]
+[ error ] [0]方法参数错误:url[/Users/huangpeng/program/hisiphp_environment/thinkphp/library/think/App.php:431]
+---------------------------------------------------------------
+[ 2018-09-04T21:30:03+08:00 ] 0.0.0.0 GET /index.php/api/UserToken/get
+[ info ] hisiphp.io/index.php/api/UserToken/get [运行时间：0.099711s][吞吐率：10.03req/s] [内存消耗：2,905.23kb] [文件加载：61]
+[ error ] [0]方法参数错误:url[/Users/huangpeng/program/hisiphp_environment/thinkphp/library/think/App.php:431]
+---------------------------------------------------------------
+[ 2018-09-04T21:31:23+08:00 ] 0.0.0.0 GET /index.php/api/UserToken/get
+[ info ] hisiphp.io/index.php/api/UserToken/get [运行时间：0.088977s][吞吐率：11.24req/s] [内存消耗：2,910.51kb] [文件加载：62]
+[ error ] [0]致命错误: Call to undefined method app\api\controller\UserToken::Crul_get()[/Users/huangpeng/program/hisiphp_environment/app/api/controller/Usertoken.php:31]
+---------------------------------------------------------------
+[ 2018-09-04T21:35:18+08:00 ] 0.0.0.0 GET /index.php/api/UserToken/get
+[ info ] hisiphp.io/index.php/api/UserToken/get [运行时间：0.152574s][吞吐率：6.55req/s] [内存消耗：2,910.50kb] [文件加载：62]
+[ error ] [0]致命错误: Call to undefined method app\api\controller\UserToken::Crul_get()[/Users/huangpeng/program/hisiphp_environment/app/api/controller/Usertoken.php:30]

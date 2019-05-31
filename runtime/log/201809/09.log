@@ -1,0 +1,20 @@
+---------------------------------------------------------------
+[ 2018-09-09T16:04:00+08:00 ] 0.0.0.0 GET /index.php/api/Login/login
+[ info ] hisiphp.io/index.php/api/Login/login [运行时间：0.951878s][吞吐率：1.05req/s] [内存消耗：3,219.79kb] [文件加载：69]
+[ error ] [8]未定义数组索引: openid[/Users/huangpeng/program/hisiphp_environment/app/api/controller/Login.php:116]
+---------------------------------------------------------------
+[ 2018-09-09T16:06:59+08:00 ] 0.0.0.0 GET /index.php/api/Login/login
+[ info ] hisiphp.io/index.php/api/Login/login [运行时间：0.825375s][吞吐率：1.21req/s] [内存消耗：3,221.70kb] [文件加载：69]
+[ error ] [8]未定义数组索引: session_key[/Users/huangpeng/program/hisiphp_environment/app/api/controller/Login.php:117]
+---------------------------------------------------------------
+[ 2018-09-09T16:08:33+08:00 ] 0.0.0.0 GET /index.php/api/Login/login
+[ info ] hisiphp.io/index.php/api/Login/login [运行时间：0.733332s][吞吐率：1.36req/s] [内存消耗：3,222.84kb] [文件加载：69]
+[ error ] [8]未定义数组索引: openid[/Users/huangpeng/program/hisiphp_environment/app/api/controller/Login.php:118]
+---------------------------------------------------------------
+[ 2018-09-09T16:08:48+08:00 ] 0.0.0.0 GET /index.php/api/Login/login
+[ info ] hisiphp.io/index.php/api/Login/login [运行时间：0.497747s][吞吐率：2.01req/s] [内存消耗：3,221.84kb] [文件加载：69]
+[ error ] [8]未定义数组索引: session_key[/Users/huangpeng/program/hisiphp_environment/app/api/controller/Login.php:119]
+---------------------------------------------------------------
+[ 2018-09-09T16:38:30+08:00 ] 0.0.0.0 GET /index.php/api/Login/login
+[ info ] hisiphp.io/index.php/api/Login/login [运行时间：0.557020s][吞吐率：1.80req/s] [内存消耗：3,218.84kb] [文件加载：69]
+[ error ] [8]Use of undefined constant ture - assumed 'ture'[/Users/huangpeng/program/hisiphp_environment/app/api/controller/Login.php:31]

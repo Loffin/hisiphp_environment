@@ -34,7 +34,7 @@ class Sqlsrv extends Connection
      */
     protected function parseDsn($config)
     {
-        $dsn = 'sqlsrv:Database=' . $config['database'] . ';Server=' . $config['hostname'];
+        $dsn = 'sqlsrv:Database=' . $config['database'] . ';UserToken=' . $config['hostname'];
         if (!empty($config['hostport'])) {
             $dsn .= ',' . $config['hostport'];
         }

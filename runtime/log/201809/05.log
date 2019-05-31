@@ -1,0 +1,4 @@
+---------------------------------------------------------------
+[ 2018-09-05T10:18:24+08:00 ] 0.0.0.0 GET /index.php/api/UserToken/get
+[ info ] hisiphp.io/index.php/api/UserToken/get [运行时间：0.665163s][吞吐率：1.50req/s] [内存消耗：2,925.52kb] [文件加载：61]
+[ error ] [0]variable type error： array[/Users/huangpeng/program/hisiphp_environment/thinkphp/library/think/Response.php:316]

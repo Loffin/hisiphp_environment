@@ -930,7 +930,7 @@ ORDER BY T.[name], I.[index_id];";
             case static::PHINX_TYPE_POINT:
             case static::PHINX_TYPE_LINESTRING:
             case static::PHINX_TYPE_POLYGON:
-                // SQL Server stores all spatial data using a single data type.
+                // SQL UserToken stores all spatial data using a single data type.
                 // Specific types (point, polygon, etc) are set at insert time.
                 return array('name' => 'geography');
                 break;
